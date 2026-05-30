@@ -1,0 +1,72 @@
+PREDIXION AI — VOIZ PLATFORM
+COMPLIANCE STANDARD OPERATING PROCEDURE
+SOP-VOIZ-COMPLIANCE-001 v1.2
+Owner: Compliance & Risk Team | Effective: 01 February 2026
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 1: PRE-CALL COMPLIANCE CHECKLIST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Step 1.1 — DNC Verification
+Before initiating any outbound call, the system must check the national DNC (Do Not Call) registry and the internal VOIZ DNC list. If the number appears on either list, the call must not be placed. Log the DNC hit in the audit trail.
+
+Step 1.2 — Calling Hours Check
+Confirm the borrower's local time zone. Calls are permitted only between 8:00 AM and 7:00 PM local time, Monday through Saturday. Any call attempt outside these hours must be blocked at the dialler level.
+
+Step 1.3 — Call Frequency Check
+Retrieve the call attempt log for the borrower. Ensure the per-day call limit for the borrower's DPD bucket has not been reached. Bucket 1: max 2 calls/day. Bucket 2: max 3 calls/day. Bucket 3–4: max 4 calls/day. Block the call attempt if the limit is reached.
+
+Step 1.4 — Consecutive Day Check
+Verify that the borrower has not been called on more than 6 consecutive days. If yes, a mandatory 1-day gap must be enforced before the next call attempt.
+
+Step 1.5 — Borrower Identification Verification
+At the start of every call, the agent must verify the borrower's identity using at least two of: (a) full name, (b) date of birth, (c) last 4 digits of PAN, (d) registered mobile number.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 2: DURING-CALL COMPLIANCE PROCEDURES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Step 2.1 — Mandatory Call Opening
+The agent must identify itself as calling on behalf of [Lender Name] and state the purpose of the call. Scripts are mandatory. Deviation from the opening script triggers an alert to the compliance supervisor.
+
+Step 2.2 — Legal Threat Detection
+If the borrower mentions legal action, regulatory complaints, or representation by a lawyer, the agent must immediately:
+(a) Acknowledge the borrower's right to legal recourse
+(b) Stop all collection activity on the call
+(c) Inform the borrower that a written response will be provided within 2 business days
+(d) Transfer the call to the Compliance Team
+(e) Log the event as a LEGAL_THREAT trigger in the audit system
+
+Step 2.3 — Hardship Detection
+If the borrower mentions job loss, medical emergency, or inability to meet basic needs, the agent must:
+(a) Respond with empathy, not collections pressure
+(b) Offer immediate transfer to the Hardship Support Team
+(c) Log the event as a FINANCIAL_HARDSHIP trigger
+
+Step 2.4 — PII Handling During Call
+The agent must never ask the borrower to repeat sensitive PII (Aadhaar, full PAN, card numbers) on the call. If the borrower volunteers such information, the agent must:
+(a) Acknowledge receipt
+(b) Immediately remind the borrower not to share sensitive data verbally
+(c) Ensure the data is not stored in the call transcript
+
+Step 2.5 — Payment Collection on Call
+Payments must only be collected via the secure payment link sent to the borrower's registered number. The agent must never verbally capture card numbers or UPI PINs. Upon payment completion, a reference number must be provided immediately.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 3: POST-CALL COMPLIANCE PROCEDURES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Step 3.1 — Call Outcome Logging
+Within 5 minutes of call completion, the agent system must log: call outcome (payment promise, payment made, callback scheduled, dispute raised, hardship referred, unreachable), disposition code, and next action date.
+
+Step 3.2 — Payment Promise Follow-Up
+If the borrower commits to payment on a specific date (Promise to Pay / PTP), a follow-up call must be scheduled for the day after the promised date if payment is not received.
+
+Step 3.3 — Settlement Confirmation
+If a settlement is agreed on the call, a written confirmation must be dispatched within 24 hours via SMS and email. The agent cannot close the call until the borrower confirms receipt of the confirmation reference number.
+
+Step 3.4 — Audit Trail Requirements
+Every call must generate an audit record containing: borrower ID (hashed), call timestamp, DPD bucket at time of call, agent ID, call duration, guardrails triggered (if any), and outcome code. Records must be retained for 7 years per RBI guidelines.
+
+Step 3.5 — Escalation Protocol
+The following events require immediate supervisor escalation: suicidal ideation or self-harm signal, threat of violence, borrower identified as deceased, borrower identified as a minor, legal representative contact.

@@ -1,0 +1,50 @@
+{
+  "campaign_name": "VOIZ KOLLECT \u00e2\u20ac\u201d May 2026",
+  "campaign_type": "collections",
+  "permitted_windows": {
+    "days": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "start_hour_ist": 9,
+    "end_hour_ist": 20
+  },
+  "channel_sequences": {
+    "NO_ANSWER": [
+      {
+        "channel": "voice",
+        "delay_minutes": 0
+      },
+      {
+        "channel": "whatsapp",
+        "delay_minutes": 120
+      },
+      {
+        "channel": "sms",
+        "delay_minutes": 360
+      }
+    ],
+    "ANSWERED": [
+      {
+        "channel": "voice",
+        "delay_minutes": 1440
+      }
+    ],
+    "CALLBACK_REQUESTED": [
+      {
+        "channel": "voice",
+        "delay_minutes": 240
+      },
+      {
+        "channel": "whatsapp",
+        "delay_minutes": 480
+      }
+    ],
+    "DNC": []
+  },
+  "max_attempts_per_contact": 5,
+  "callback_hold_minutes": 240
+}

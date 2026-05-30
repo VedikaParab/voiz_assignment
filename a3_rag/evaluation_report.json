@@ -1,0 +1,213 @@
+{
+  "total_questions": 20,
+  "correctly_grounded": 17,
+  "correctly_declined": 3,
+  "hallucinated": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "decline_accuracy": 1.0,
+  "hallucination_rate": 0.0,
+  "avg_faithfulness_score": 1.0,
+  "results": [
+    {
+      "question": "What is the maximum settlement discount allowed for a Bucket 2 account?",
+      "expected_grounded": true,
+      "response_snippet": "For a Bucket 2 account, the maximum settlement discount allowed is up to 10% waiver on penalty charges only. Principal and interest are not waivable.\n\nCITATIONS:\n[Source: 01_collections_policy.txt, ch",
+      "outcome": "CORRECT_GROUNDED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 8.44
+    },
+    {
+      "question": "What are the DPD bucket definitions and their treatment strategies?",
+      "expected_grounded": true,
+      "response_snippet": "The DPD (Days Past Due) bucket definitions and their treatment strategies are as follows:\n\n- Bucket 0 (0 DPD \u2014 Current): Account is current. No collections activity permitted. Agent may only call for ",
+      "outcome": "CORRECT_GROUNDED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 1.54
+    },
+    {
+      "question": "How many calls per day are permitted for a Bucket 3 account?",
+      "expected_grounded": true,
+      "response_snippet": "For a Bucket 3 account, a maximum of 4 calls per day are permitted.\n\n[CITATIONS]\n[Source: 01_collections_policy.txt, chunk 01_collections_policy_chunk_0001, relevance: 0.770]",
+      "outcome": "CORRECT_GROUNDED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 1.13
+    },
+    {
+      "question": "What happens to an account at 91+ DPD?",
+      "expected_grounded": true,
+      "response_snippet": "At 91+ DPD, an account is classified as a Non-Performing Asset (NPA). Legal action may proceed, and settlement negotiation is governed by the NPA Settlement Policy v1.3. Additionally, AI agents must n",
+      "outcome": "CORRECT_GROUNDED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 13.93
+    },
+    {
+      "question": "What conduct is strictly prohibited for VOIZ collection agents?",
+      "expected_grounded": true,
+      "response_snippet": "The following conduct is strictly prohibited for VOIZ collection agents: \n- Threatening language, abusive or demeaning tone \n- Misrepresenting the agent's identity or the consequences of non-payment \n",
+      "outcome": "CORRECT_GROUNDED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 13.21
+    },
+    {
+      "question": "What is the late payment fee if I miss an EMI?",
+      "expected_grounded": true,
+      "response_snippet": "The late payment fee is \u20b9500 or 2% of the overdue amount, whichever is higher, applied after 3 days of non-payment.\n\n[CITATIONS]\n[Source: 02_product_faq.txt, chunk 02_product_faq_chunk_0000, relevance",
+      "outcome": "CORRECT_GROUNDED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 15.05
+    },
+    {
+      "question": "What payment methods are accepted for loan repayment?",
+      "expected_grounded": true,
+      "response_snippet": "We accept UPI (GPay, PhonePe, Paytm), NEFT/RTGS bank transfer, debit card payment via the portal, and NACH auto-debit (if registered). Cash payments are not accepted.\nCITATIONS \n[Source: 02_product_fa",
+      "outcome": "CORRECT_GROUNDED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 13.01
+    },
+    {
+      "question": "Can I prepay my loan early and what charges apply?",
+      "expected_grounded": true,
+      "response_snippet": "Yes, you can prepay your loan early. Prepayment is allowed after 6 EMI payments. A prepayment charge of 2% of the outstanding principal applies in the first 12 months. No prepayment charge applies aft",
+      "outcome": "CORRECT_GROUNDED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 15.46
+    },
+    {
+      "question": "What happens to my CIBIL score if I settle a loan?",
+      "expected_grounded": true,
+      "response_snippet": "Settling an NPA account is reported as \"settled\" (not \"closed\") which also negatively impacts your score.\n\n[CITATIONS]\n[Source: 02_product_faq.txt, chunk 02_product_faq_chunk_0002, relevance: 0.744]",
+      "outcome": "CORRECT_GROUNDED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 15.05
+    },
+    {
+      "question": "How long does it take to get a settlement confirmation?",
+      "expected_grounded": true,
+      "response_snippet": "Once you agree to settlement terms verbally, a written confirmation is sent to your registered email and SMS within 24 hours.\n\nCITATIONS \n[Source: 02_product_faq.txt, chunk 02_product_faq_chunk_0002, ",
+      "outcome": "CORRECT_GROUNDED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 13.41
+    },
+    {
+      "question": "What are the allowed calling hours for outbound collection calls?",
+      "expected_grounded": true,
+      "response_snippet": "The allowed calling hours for outbound collection calls are between 8:00 AM and 7:00 PM local borrower time, Monday through Saturday. Sunday calls are prohibited unless the borrower initiates contact,",
+      "outcome": "CORRECT_GROUNDED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 13.21
+    },
+    {
+      "question": "How must an agent verify borrower identity before discussing the account?",
+      "expected_grounded": true,
+      "response_snippet": "The agent must verify the borrower's identity using at least two of the following: (a) full name, (b) date of birth, (c) last 4 digits of PAN, (d) registered mobile number.\n\nCITATIONS \n[Source: 03_com",
+      "outcome": "CORRECT_GROUNDED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 13.92
+    },
+    {
+      "question": "What must an agent do immediately if a borrower mentions legal action?",
+      "expected_grounded": true,
+      "response_snippet": "If a borrower mentions legal action, the agent must immediately: \n(a) Acknowledge the borrower's right to legal recourse \n(b) Stop all collection activity on the call \n(c) Inform the borrower that a w",
+      "outcome": "CORRECT_GROUNDED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 14.23
+    },
+    {
+      "question": "What information must be logged in the audit trail after every call?",
+      "expected_grounded": true,
+      "response_snippet": "The audit trail must contain the following information after every call: \nborrower ID (hashed), \ncall timestamp, \nDPD bucket at time of call, \nagent ID, \ncall duration, \nguardrails triggered (if any),",
+      "outcome": "CORRECT_GROUNDED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 13.31
+    },
+    {
+      "question": "What are all the personal loan interest rate tiers based on CIBIL score?",
+      "expected_grounded": true,
+      "response_snippet": "The personal loan interest rate tiers based on CIBIL score are as follows:\n- Tier 1 (CIBIL 750+): 18.00% per annum (flat rate)\n- Tier 2 (CIBIL 700\u2013749): 21.00% per annum (flat rate)\n- Tier 3 (CIBIL 65",
+      "outcome": "CORRECT_GROUNDED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 15.36
+    },
+    {
+      "question": "What is the penalty for a bounced NACH payment?",
+      "expected_grounded": true,
+      "response_snippet": "The penalty for a bounced NACH payment is \u20b9500 + 18% GST. The maximum charge per month for NACH dishonour is \u20b91,500 + 18% GST.\n\n[CITATIONS]\n[Source: 04_pricing_sheet.txt, chunk 04_pricing_sheet_chunk_",
+      "outcome": "CORRECT_GROUNDED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 15.26
+    },
+    {
+      "question": "What is the monthly cost of the VOIZ Growth Plan?",
+      "expected_grounded": true,
+      "response_snippet": "The monthly cost of the VOIZ Growth Plan is \u20b945,000. \n\nCITATIONS \n[Source: 04_pricing_sheet.txt, chunk 04_pricing_sheet_chunk_0002, relevance: 0.773]",
+      "outcome": "CORRECT_GROUNDED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 14.24
+    },
+    {
+      "question": "What is the recipe for biryani?",
+      "expected_grounded": false,
+      "response_snippet": "This information is not available in my knowledge base.\n[CITATIONS: None]",
+      "outcome": "CORRECT_DECLINED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 13.93
+    },
+    {
+      "question": "Who won the 2024 Indian Premier League?",
+      "expected_grounded": false,
+      "response_snippet": "This information is not available in my knowledge base.\n[CITATIONS: \nSource: 04_pricing_sheet.txt, chunk 04_pricing_sheet_chunk_0000, relevance: 0.623\nSource: 04_pricing_sheet.txt, chunk 04_pricing_sh",
+      "outcome": "CORRECT_DECLINED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 16.18
+    },
+    {
+      "question": "Write a Python function to sort a list in descending order.",
+      "expected_grounded": false,
+      "response_snippet": "This information is not available in my knowledge base.\nCITATIONS \n[Source: None, chunk None, relevance: 0.000]",
+      "outcome": "CORRECT_DECLINED",
+      "chunks_retrieved": 3,
+      "faithfulness_score": 1.0,
+      "flagged_claims": [],
+      "latency_s": 12.2
+    }
+  ]
+}

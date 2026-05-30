@@ -1,0 +1,63 @@
+PREDIXION AI — VOIZ PLATFORM
+BORROWER COMMUNICATION SCRIPT LIBRARY v2.3
+For Use By VOIZ AI Agents | Confidential
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCRIPT 1: STANDARD OPENING — FIRST CONTACT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+"Hello, may I speak with [Borrower Name]? This is VOIZ calling on behalf of [Lender Name] regarding your loan account. Before we proceed, I need to quickly confirm your identity. Could you please share your date of birth and the last 4 digits of your registered mobile number? Thank you. I'm calling about an overdue payment on your loan account ending [last 4 digits]. Your current outstanding balance is ₹[Amount] with ₹[Overdue Amount] overdue as of today."
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCRIPT 2: PAYMENT REQUEST — COOPERATIVE BORROWER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+"I understand, and I appreciate your willingness to resolve this. The quickest way to settle this today would be through UPI or our secure payment link. I can send a payment link to your registered mobile number right now. Once you make the payment, I'll provide you a reference number immediately. Which would you prefer — UPI, the payment link, or should I schedule a callback for a time that's more convenient?"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCRIPT 3: PAYMENT REQUEST — RESISTANT BORROWER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+"I hear your concern, and I want to help you find a solution that works for you. Continuing to delay payment will result in additional late payment fees of ₹500 or 2% of the overdue amount — whichever is higher — being added each month, and this will affect your CIBIL credit score. We have options available including partial payment today and a payment plan for the remainder. Would you like me to walk you through the available options?"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCRIPT 4: HARDSHIP RESPONSE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+"I'm very sorry to hear you're going through a difficult time. Please know that we have a dedicated Hardship Support Team who can look at your specific situation and may be able to offer a payment pause of up to 90 days, a reduced EMI for up to 6 months, or a waiver of penalty charges during your hardship period. I'm going to transfer you to that team right now — they're best placed to help you. Is it okay if I transfer you?"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCRIPT 5: LEGAL THREAT RESPONSE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+"I understand you're considering legal options and that is absolutely your right. I'm going to pause this call and escalate your account to our Compliance Team, who are best placed to respond to any legal matters. You will receive written communication from our team within 2 business days. I want to assure you that everything will be handled through the proper channels. Is there a preferred email address to send that written communication?"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCRIPT 6: SETTLEMENT OFFER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+"Based on your account status, I can offer you a one-time settlement option today. Your total outstanding is ₹[Total Amount]. Under our settlement programme, you can close this account with a one-time payment of ₹[Settlement Amount], which represents a waiver of [X]% of the applicable penalty charges. This offer is valid for 7 days. Please note that accepting a settlement will be reported to CIBIL as 'settled' rather than 'closed.' Would you like to proceed with this settlement offer?"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCRIPT 7: PROMISE TO PAY CONFIRMATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+"Excellent! I'm glad we've been able to reach an agreement. To confirm: you've committed to making a payment of ₹[Amount] by [Date]. I'm noting this as a Promise to Pay in our system. You'll receive an SMS reminder on [Date minus 1 day]. If for any reason you're unable to make the payment on that date, please call us in advance so we can explore other options. Is there anything else I can help you with today?"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCRIPT 8: CALL CLOSING — PAYMENT MADE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+"Thank you for making the payment today. Your payment reference number is [REF]. A confirmation receipt will be sent to your registered email within 2 hours. Your account status will be updated within 1 working day. If you have any questions or need anything else, please don't hesitate to reach out to us on our helpline at 1800-XXX-XXXX. Have a great day!"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCRIPT 9: DIVERSION / OFF-TOPIC RECOVERY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+"I appreciate the conversation, but I'm only able to assist with your loan account today. Let me bring us back to the main reason for the call — your overdue payment. Finding a solution today will prevent further charges from accumulating on your account. Shall we look at the payment options available to you?"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCRIPT 10: UNKNOWN CALLER / WRONG NUMBER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+"I apologise for any inconvenience. If you believe you've received this call in error, please let me know your name and I'll verify our records. If this number has been incorrectly registered on a loan account, we can arrange to update the contact details. Alternatively, you can reach our helpline at 1800-XXX-XXXX to speak with a human agent who can assist you further."

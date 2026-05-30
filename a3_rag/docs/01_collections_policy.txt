@@ -1,0 +1,77 @@
+PREDIXION AI — VOIZ PLATFORM
+COLLECTIONS POLICY DOCUMENT v2.1
+Effective Date: 01 January 2026
+Confidential — Internal Use Only
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. PURPOSE AND SCOPE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+This policy governs all outbound debt collection activity conducted by VOIZ agents on behalf of Predixion AI's lending partners. It applies to all loan products including personal loans, two-wheeler loans, and BNPL (Buy Now Pay Later) instruments. All agents — human and AI — must comply without exception.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. DPD BUCKET DEFINITIONS AND TREATMENT RULES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DPD (Days Past Due) buckets define the delinquency stage of an account and dictate the appropriate treatment strategy.
+
+Bucket 0 (0 DPD — Current):
+Account is current. No collections activity permitted. Agent may only call for payment reminders within 3 days of due date.
+
+Bucket 1 (1–30 DPD — Early Delinquency):
+Soft collections only. Agent must use empathetic tone. Maximum 2 calls per day. No field visits permitted. Offer EMI restructuring if borrower expresses hardship. Escalation to supervisor required if borrower is unresponsive after 5 attempts.
+
+Bucket 2 (31–60 DPD — Mid Delinquency):
+Standard collections. Maximum 3 calls per day. Field visit permitted after 10 unsuccessful call attempts. Legal notice may be issued after 45 DPD with supervisor approval. Settlement discount of up to 10% may be offered without supervisor approval.
+
+Bucket 3 (61–90 DPD — Late Delinquency):
+Intensive collections. Maximum 4 calls per day. Settlement discount of up to 20% permitted with supervisor approval. Legal action review mandatory at 90 DPD. Account flagged for NPA provisioning.
+
+Bucket 4 (91+ DPD — NPA / Severely Delinquent):
+Account classified as Non-Performing Asset. Legal action may proceed. Settlement negotiation governed by NPA Settlement Policy v1.3. AI agents must not engage NPA accounts without supervisor routing.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. CALLING HOURS AND FREQUENCY RULES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Permitted calling hours: 8:00 AM to 7:00 PM local borrower time, Monday through Saturday.
+Sunday calls: Prohibited unless borrower initiates contact.
+Public holidays: Calls permitted only for Bucket 3 and Bucket 4 accounts.
+Do Not Call (DNC) registry: Must be checked before every call. DNC accounts must not be dialled under any circumstances.
+Consecutive day limit: No borrower may be called on more than 6 consecutive days without a 1-day gap.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. SETTLEMENT GUIDELINES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Settlement offers must be based on the borrower's outstanding principal, accrued interest, and applicable penalty charges. The following discount bands are authorised:
+
+- Bucket 1 accounts: No settlement discount permitted.
+- Bucket 2 accounts: Up to 10% waiver on penalty charges only. Principal and interest not waivable.
+- Bucket 3 accounts: Up to 20% waiver on penalty charges; up to 5% waiver on accrued interest. Supervisor approval required.
+- Bucket 4 / NPA accounts: Settlement terms governed by NPA Settlement Policy v1.3. Case-by-case approval from Credit Committee required.
+
+All settlement offers must be confirmed in writing within 24 hours via SMS and email to the registered contact details. Verbal settlements are not binding.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. HARDSHIP POLICY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+A borrower claiming financial hardship must be transferred to the Hardship Support Team immediately. Hardship indicators include: job loss, medical emergency, death in immediate family, and natural disaster impact. The Hardship Support Team may approve:
+- Payment pause of up to 90 days
+- EMI reduction of up to 50% for up to 6 months
+- Waiver of penalty charges for the hardship period
+
+Hardship applications must be submitted within 30 days of the hardship event. Supporting documentation required within 15 days of application.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. PROHIBITED CONDUCT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The following are strictly prohibited and will result in immediate escalation and audit:
+- Threatening language, abusive or demeaning tone
+- Misrepresenting the agent's identity or the consequences of non-payment
+- Contacting third parties (employer, family, neighbours) without borrower consent
+- Calling outside permitted hours
+- Offering settlement terms beyond authorised discount bands without approval
+- Collecting payment without issuing a receipt reference number

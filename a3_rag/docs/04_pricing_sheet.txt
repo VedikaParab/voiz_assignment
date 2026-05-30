@@ -1,0 +1,95 @@
+PREDIXION AI — VOIZ PLATFORM
+PRODUCT PRICING SHEET & FEE SCHEDULE v3.0
+Effective: 01 April 2026 | Confidential
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION A: LOAN PRODUCT INTEREST RATES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Personal Loan (Unsecured):
+  Tier 1 (CIBIL 750+):       18.00% per annum (flat rate)
+  Tier 2 (CIBIL 700–749):    21.00% per annum (flat rate)
+  Tier 3 (CIBIL 650–699):    24.00% per annum (flat rate)
+  Tier 4 (CIBIL below 650):  Not eligible
+
+Two-Wheeler Loan:
+  Tier 1 (CIBIL 720+):       14.00% per annum (reducing balance)
+  Tier 2 (CIBIL 680–719):    16.00% per annum (reducing balance)
+  Tier 3 (CIBIL 640–679):    18.00% per annum (reducing balance)
+  Tier 4 (CIBIL below 640):  Not eligible
+
+BNPL (Buy Now Pay Later):
+  Interest-free period:       0% for first 90 days
+  Post-period rate:           24.00% per annum (flat rate)
+  Minimum credit limit:       ₹5,000
+  Maximum credit limit:       ₹1,00,000
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION B: PROCESSING AND ORIGINATION FEES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Processing Fee:
+  Personal Loan:              2.0% of loan amount + 18% GST (deducted at disbursement)
+  Two-Wheeler Loan:           1.5% of loan amount + 18% GST (deducted at disbursement)
+  BNPL:                       ₹199 one-time activation fee + 18% GST
+
+Documentation Fee:           ₹500 flat (all products, non-refundable)
+NACH Setup Fee:              Nil
+Loan Agreement Stamp Duty:   As per state schedule (passed through at actuals)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION C: PENALTY AND LATE PAYMENT CHARGES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Late Payment Fee:
+  Applied after:              3 days post-due-date
+  Charge:                     ₹500 or 2% of overdue EMI amount, whichever is higher
+  Frequency:                  Charged once per overdue EMI per month
+
+Bounce / NACH Dishonour Fee:
+  Per bounce:                 ₹500 + 18% GST
+  Maximum per month:          ₹1,500 + 18% GST
+
+Penal Interest:
+  Rate:                       2% per month on overdue principal
+  Applied from:               Day 1 of delinquency
+  Compounding:                Monthly
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION D: PREPAYMENT AND FORECLOSURE CHARGES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Prepayment Eligibility:       After 6 EMI payments from disbursement date
+
+Prepayment Charge Schedule:
+  Month 7–12:                 2% of outstanding principal + 18% GST
+  Month 13–24:                1% of outstanding principal + 18% GST
+  After month 24:             Nil
+
+Part-Prepayment:
+  Minimum amount:             3x monthly EMI
+  Frequency:                  Maximum twice per financial year
+
+Foreclosure:
+  Process:                    Request via borrower portal; NOC issued within 7 working days of full payment
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION E: SERVICE AND ADMINISTRATIVE CHARGES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+EMI Date Change Fee:          ₹299 + 18% GST (once per loan tenure)
+Duplicate NOC/Statement:      ₹199 + 18% GST per document
+Legal Notice Fee:             ₹1,500 + 18% GST (charged to borrower account after 45 DPD)
+Field Visit Recovery Fee:     ₹750 + 18% GST per field visit (charged after 10 failed call attempts)
+Loan Re-scheduling Fee:       ₹999 + 18% GST (Bucket 1 hardship restructuring)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION F: VOIZ PLATFORM SERVICE TIERS (B2B PRICING)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Starter Plan:                 ₹15,000/month — up to 5,000 calls/month, 1 client collection
+Growth Plan:                  ₹45,000/month — up to 25,000 calls/month, 5 client collections
+Enterprise Plan:              ₹1,20,000/month — unlimited calls, unlimited collections, SLA guarantee
+Custom / White-label:         Contact sales@predixion.ai for pricing
+
+All B2B plans include: VOIZ agent access, compliance guardrails, audit logging, and Streamlit dashboard.

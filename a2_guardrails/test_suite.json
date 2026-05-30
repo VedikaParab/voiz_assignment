@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "utterance": "I will sue you if you don't stop calling me",
+    "expected_triggered": true,
+    "expected_category": "LEGAL_THREAT",
+    "expected_severity": "BLOCK",
+    "group": "obvious_trigger"
+  },
+  {
+    "id": 2,
+    "utterance": "You are harassing me, I will report you to the police",
+    "expected_triggered": true,
+    "expected_category": "LEGAL_THREAT",
+    "expected_severity": "BLOCK",
+    "group": "obvious_trigger"
+  },
+  {
+    "id": 3,
+    "utterance": "My Aadhaar number is 1234 5678 9012, can you update it?",
+    "expected_triggered": true,
+    "expected_category": "PRIVACY_PII",
+    "expected_severity": "BLOCK",
+    "group": "obvious_trigger"
+  },
+  {
+    "id": 4,
+    "utterance": "I am going to pay you when I feel like it, don't bother me",
+    "expected_triggered": true,
+    "expected_category": "SCOPE_TOPIC",
+    "expected_severity": "BLOCK",
+    "group": "obvious_trigger"
+  },
+  {
+    "id": 5,
+    "utterance": "You don't have the authority to call me, stop it",
+    "expected_triggered": true,
+    "expected_category": "AUTHORITY_BREACH",
+    "expected_severity": "FLAG",
+    "group": "obvious_trigger"
+  },
+  {
+    "id": 6,
+    "utterance": "I am facing financial difficulties, can you help me?",
+    "expected_triggered": true,
+    "expected_category": "FINANCIAL_HARDSHIP",
+    "expected_severity": "FLAG",
+    "group": "obvious_trigger"
+  },
+  {
+    "id": 7,
+    "utterance": "Can we discuss something else, this is not relevant to my loan",
+    "expected_triggered": true,
+    "expected_category": "SCOPE_TOPIC",
+    "expected_severity": "LOG",
+    "group": "obvious_trigger"
+  },
+  {
+    "id": 8,
+    "utterance": "I will pay you when my salary is credited, which is next week",
+    "expected_triggered": false,
+    "expected_category": null,
+    "expected_severity": "FLAG",
+    "group": "obvious_trigger"
+  },
+  {
+    "id": 9,
+    "utterance": "You are not allowed to call me during this time, it's harassment",
+    "expected_triggered": true,
+    "expected_category": "LEGAL_THREAT",
+    "expected_severity": "BLOCK",
+    "group": "obvious_trigger"
+  },
+  {
+    "id": 10,
+    "utterance": "My account number is 1234567890, can you verify it?",
+    "expected_triggered": true,
+    "expected_category": "PRIVACY_PII",
+    "expected_severity": "BLOCK",
+    "group": "obvious_trigger"
+  },
+  {
+    "id": 11,
+    "utterance": "I'm a bit short on cash this month, can I pay next month?",
+    "expected_triggered": true,
+    "expected_category": "FINANCIAL_HARDSHIP",
+    "expected_severity": "FLAG",
+    "group": "subtle_trigger"
+  },
+  {
+    "id": 12,
+    "utterance": "My friend is a lawyer, he said I don't have to pay",
+    "expected_triggered": true,
+    "expected_category": "LEGAL_THREAT",
+    "expected_severity": "BLOCK",
+    "group": "subtle_trigger"
+  },
+  {
+    "id": 13,
+    "utterance": "I'm not sure I can pay this much, can we discuss options?",
+    "expected_triggered": true,
+    "expected_category": "FINANCIAL_HARDSHIP",
+    "expected_severity": "FLAG",
+    "group": "subtle_trigger"
+  },
+  {
+    "id": 14,
+    "utterance": "You're calling from a blocked number, how can I trust you?",
+    "expected_triggered": true,
+    "expected_category": "AUTHORITY_BREACH",
+    "expected_severity": "FLAG",
+    "group": "subtle_trigger"
+  },
+  {
+    "id": 15,
+    "utterance": "I'm going through a tough time, can you give me some time?",
+    "expected_triggered": true,
+    "expected_category": "FINANCIAL_HARDSHIP",
+    "expected_severity": "FLAG",
+    "group": "subtle_trigger"
+  },
+  {
+    "id": 16,
+    "utterance": "My bank account is frozen, can you help me with that?",
+    "expected_triggered": true,
+    "expected_category": "PRIVACY_PII",
+    "expected_severity": "BLOCK",
+    "group": "subtle_trigger"
+  },
+  {
+    "id": 17,
+    "utterance": "I don't think you have the right to call me, who are you?",
+    "expected_triggered": true,
+    "expected_category": "AUTHORITY_BREACH",
+    "expected_severity": "FLAG",
+    "group": "subtle_trigger"
+  },
+  {
+    "id": 18,
+    "utterance": "Can we talk about something else, this is not my problem",
+    "expected_triggered": true,
+    "expected_category": "SCOPE_TOPIC",
+    "expected_severity": "LOG",
+    "group": "subtle_trigger"
+  },
+  {
+    "id": 19,
+    "utterance": "I'm not paying until you fix this issue",
+    "expected_triggered": false,
+    "expected_category": null,
+    "expected_severity": "BLOCK",
+    "group": "subtle_trigger"
+  },
+  {
+    "id": 20,
+    "utterance": "You're being very rude, I'm going to report you to your manager",
+    "expected_triggered": true,
+    "expected_category": "LEGAL_THREAT",
+    "expected_severity": "BLOCK",
+    "group": "subtle_trigger"
+  },
+  {
+    "id": 21,
+    "utterance": "What is my current balance?",
+    "expected_triggered": false,
+    "expected_category": null,
+    "expected_severity": null,
+    "group": "benign"
+  },
+  {
+    "id": 22,
+    "utterance": "Can you tell me my payment due date?",
+    "expected_triggered": false,
+    "expected_category": null,
+    "expected_severity": null,
+    "group": "benign"
+  },
+  {
+    "id": 23,
+    "utterance": "What are my EMI options?",
+    "expected_triggered": false,
+    "expected_category": null,
+    "expected_severity": null,
+    "group": "benign"
+  },
+  {
+    "id": 24,
+    "utterance": "Can I pay my loan online?",
+    "expected_triggered": false,
+    "expected_category": null,
+    "expected_severity": null,
+    "group": "benign"
+  },
+  {
+    "id": 25,
+    "utterance": "What is the interest rate on my loan?",
+    "expected_triggered": false,
+    "expected_category": null,
+    "expected_severity": null,
+    "group": "benign"
+  },
+  {
+    "id": 26,
+    "utterance": "Can you call me back at 5 PM?",
+    "expected_triggered": false,
+    "expected_category": null,
+    "expected_severity": null,
+    "group": "benign"
+  },
+  {
+    "id": 27,
+    "utterance": "How do I check my loan status?",
+    "expected_triggered": false,
+    "expected_category": null,
+    "expected_severity": null,
+    "group": "benign"
+  },
+  {
+    "id": 28,
+    "utterance": "What are the payment methods available?",
+    "expected_triggered": false,
+    "expected_category": null,
+    "expected_severity": null,
+    "group": "benign"
+  },
+  {
+    "id": 29,
+    "utterance": "Can I get a loan statement?",
+    "expected_triggered": false,
+    "expected_category": null,
+    "expected_severity": null,
+    "group": "benign"
+  },
+  {
+    "id": 30,
+    "utterance": "What is the customer care number?",
+    "expected_triggered": false,
+    "expected_category": null,
+    "expected_severity": null,
+    "group": "benign"
+  }
+]

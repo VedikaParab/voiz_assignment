@@ -1,0 +1,67 @@
+PREDIXION AI — VOIZ PLATFORM
+BORROWER PRODUCT FAQ v1.4
+Last Updated: March 2026
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FREQUENTLY ASKED QUESTIONS — LOAN ACCOUNTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Q1: How do I check my outstanding loan balance?
+A: Log in to the borrower portal at portal.predixion.ai or call our helpline at 1800-XXX-XXXX (toll-free, 9 AM–6 PM). You can also check via the VOIZ mobile app under "My Loans."
+
+Q2: What is my EMI due date?
+A: Your EMI due date is fixed at the time of loan disbursement and shown in your loan agreement. It is typically the 5th or 15th of the month. You can confirm it in the borrower portal or by asking the VOIZ agent.
+
+Q3: What happens if I miss an EMI payment?
+A: A late payment fee of ₹500 or 2% of the overdue amount (whichever is higher) is applied after 3 days of non-payment. Your account enters DPD (Days Past Due) status and collection calls will begin. Continued non-payment may impact your CIBIL credit score.
+
+Q4: Can I prepay my loan early?
+A: Yes. Prepayment is allowed after 6 EMI payments. A prepayment charge of 2% of the outstanding principal applies in the first 12 months. No prepayment charge applies after 12 months.
+
+Q5: What payment methods are accepted?
+A: We accept UPI (GPay, PhonePe, Paytm), NEFT/RTGS bank transfer, debit card payment via the portal, and NACH auto-debit (if registered). Cash payments are not accepted.
+
+Q6: How do I register for NACH auto-debit?
+A: Download the NACH mandate form from the borrower portal, fill it with your bank account details, and submit it at least 10 working days before your next EMI date. Alternatively, your relationship manager can send you a digital e-NACH link.
+
+Q7: What is a settlement offer?
+A: A settlement is a one-time payment arrangement where you pay a negotiated amount to close your loan account. Settlement amounts are less than the total outstanding due and depend on your DPD bucket and account history. Accepting a settlement closes the account but is reported to CIBIL as "settled" rather than "closed," which affects your credit score.
+
+Q8: Can I restructure my loan EMI?
+A: Loan restructuring is available for borrowers in Bucket 1 (1–30 DPD) experiencing temporary financial difficulty. You can request a restructuring by calling the helpline or asking the VOIZ agent to transfer you to the Hardship Support Team.
+
+Q9: How long does a settlement confirmation take?
+A: Once you agree to settlement terms verbally, a written confirmation is sent to your registered email and SMS within 24 hours. Payment must be made within 7 days of the written confirmation. The account is closed within 3 working days of payment clearance.
+
+Q10: What documents do I need for a hardship application?
+A: You need: (1) completed hardship application form, (2) proof of hardship event (e.g. hospital bill, termination letter, death certificate), (3) last 3 months' bank statements, and (4) government-issued ID. All documents must be submitted within 15 days of your application date.
+
+Q11: Will a missed payment affect my CIBIL score?
+A: Yes. Payment history is reported to CIBIL monthly. A payment more than 30 days overdue is reported as a "default" and can reduce your score by 50–100 points. Settling an NPA account is reported as "settled" (not "closed") which also negatively impacts your score.
+
+Q12: Can I dispute a charge on my account?
+A: Yes. Raise a dispute ticket via the borrower portal within 30 days of the charge appearing on your statement. Our team will investigate and respond within 7 working days. During a valid dispute, late payment fees on the disputed amount are paused.
+
+Q13: What is the interest rate on my loan?
+A: Interest rates vary by product. Personal loans carry 18–24% per annum (flat). Two-wheeler loans carry 14–18% per annum (reducing balance). BNPL products carry 0% for the first 3 months, then 24% per annum. Your specific rate is in your loan agreement.
+
+Q14: Can I change my EMI due date?
+A: EMI date changes are permitted once per loan tenure, subject to a ₹299 processing fee. Request must be made at least 15 days before the current EMI date via the borrower portal.
+
+Q15: What happens after 90 DPD?
+A: At 90+ DPD your account is classified as an NPA (Non-Performing Asset). Legal recovery proceedings may be initiated. The account is transferred to the Legal Recovery Team. Your CIBIL score is severely impacted.
+
+Q16: Is there a moratorium option available?
+A: Moratorium (payment pause) is available only under the Hardship Policy for qualifying borrowers. It is not available on demand. Duration is up to 90 days, approved by the Hardship Support Team.
+
+Q17: How do I update my contact details?
+A: Log in to the borrower portal and update your mobile number, email, or address under "Profile Settings." Changes require OTP verification on the existing registered mobile number.
+
+Q18: Can I make a partial payment?
+A: Partial payments are accepted but do not prevent late payment fees if the full EMI amount is not paid by the due date. Partial payments are applied first to penalty charges, then interest, then principal.
+
+Q19: What is the grievance redressal process?
+A: If you are not satisfied with our response, you can escalate to our Grievance Officer at grievance@predixion.ai within 30 days. If unresolved after 30 more days, you may approach the RBI Banking Ombudsman.
+
+Q20: Who do I contact for a receipt or payment confirmation?
+A: Payment receipts are auto-generated and sent to your registered email within 2 hours of payment. You can also download receipts from the borrower portal under "Payment History." For same-day confirmation, call the helpline.

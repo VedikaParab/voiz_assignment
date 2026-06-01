@@ -7,7 +7,7 @@ venv/
 logs/
 *.log
 
-a3_rag/chroma_db/
+a3_rag/.chromadb/
 
 .streamlit/
 

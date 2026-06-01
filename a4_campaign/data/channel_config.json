@@ -3,6 +3,7 @@
   "campaign_type": "collections",
   "permitted_windows": {
     "days": [
+      "Monday",
       "Tuesday",
       "Wednesday",
       "Thursday",

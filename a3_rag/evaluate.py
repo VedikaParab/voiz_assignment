@@ -161,7 +161,7 @@ def run_evaluation(client_id: str = "client_A") -> dict:
     print(f"  Avg faithfulness score:            {avg_faith:.2f} / 1.00")
     print(f"\n  Full report → {out_path}")
     return report
-
+ 
 
 if __name__ == "__main__":
     run_evaluation("client_A")

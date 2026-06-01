@@ -2,11 +2,21 @@
 
 **Predixion AI · Intern Assignment · May 2026**
 
-Built by **Vedika Parab** as part of the Predixion AI intern programme.
-
 VOIZ is an AI-first debt collections voice agent platform for Indian NBFCs and banks. This repository contains four end-to-end assignments that together form the core platform stack: a stateful call agent, a compliance guardrail system, a grounded RAG knowledge layer, and a campaign orchestration engine.
 
 ---
+
+## 📚 Documentation & Demo
+
+### Project Resources
+
+📄 **Project Documentation:**  
+[View Full Documentation](https://drive.google.com/drive/folders/1ekU8krutomDlcV0JKdw42wQVaa4tmkLY?usp=drive_link)
+
+🎥 **Project Demo Video:**  
+[Watch Demo Video](https://drive.google.com/file/d/1QyDYI_xeQ_reNRsEfSGyxuH72BL71v6P/view?usp=drive_link)
+
+The documentation contains detailed architecture, design decisions, implementation details, testing methodology, and evaluation results for all four assignments (A1–A4). The demo video showcases the functionality and workflow of the complete VOIZ platform.
 
 ## Repository Structure
 
@@ -142,6 +152,8 @@ A stateful 7-phase collections call agent. The LLM handles language; a determini
 
 **Test results:** All 3 scripted scenarios pass — cooperative (reaches `CLOSE`), resistant (objection count triggers goal demotion and `ESCALATE`), escalated (patience budget depletion triggers `ESCALATE`).
 
+📄 Documentation: [View Assignment Report](https://drive.google.com/file/d/1V2aN-rMNCqKqea9BMJSGx2S7Xeq1V99s/view?usp=drive_link)
+
 ---
 
 ### A2 — Guardrail Classifier
@@ -165,6 +177,8 @@ A two-pass compliance classifier that runs **before** the main LLM on every call
 **PII detection** covers Aadhaar (12-digit), PAN (AAAAA9999A), Indian mobile (+91 / 10-digit), email, bank account (9–18 digit), and IFSC. Raw utterances are never passed to the LLM or stored in logs — only SHA-256 hashes.
 
 **Test results (30-input adversarial suite):** 0 BLOCK false negatives, 0 FLAG false negatives, 1 benign false positive (LOG severity). Pass 1 catches ~80% of triggers; Pass 2 handles the remaining ~20%.
+
+📄 Documentation: [View Assignment Report](https://drive.google.com/file/d/1JAdbouiqnASxnrBjcE65FMyJoB0U3m-h/view?usp=drive_link)
 
 ---
 
@@ -191,6 +205,8 @@ A grounded retrieval-augmented generation pipeline. Every agent response must be
 
 **Knowledge base documents:** collections policy, product FAQ, compliance SOP, pricing sheet, borrower communication scripts — all generated via Groq and saved to `a3_rag/docs/`.
 
+📄 Documentation: [View Assignment Report](https://drive.google.com/file/d/17rP9R3crF6OtLQRKGk6Fisui0rBYATBO/view?usp=drive_link)
+
 ---
 
 ### A4 — Campaign Management Engine
@@ -215,6 +231,8 @@ Re-calculated after every contact outcome.
 - **NBA engine:** single batch Groq call for top-10 contacts → ranked 3 recommendations with reasoning, urgency, and recommended channel. Under 3s latency for the batch.
 
 **Simulation results (20 attempts, 50 contacts):** contact rate, RPC rate, channel effectiveness, and queue depth tracked throughout. Full log saved to `a4_campaign/logs/`.
+
+📄 Documentation: [View Assignment Report](https://drive.google.com/file/d/1l94Bl5EuPqndr95kGFJG79ag8d5domYg/view?usp=drive_link)
 
 ---
 
